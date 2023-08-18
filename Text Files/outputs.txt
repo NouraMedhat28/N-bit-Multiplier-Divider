@@ -1,0 +1,11 @@
+1111 1111
+0001 1110
+0000 0000
+division by zero
+0001 0000
+1110 0000
+division by zero
+0001 0000
+division by zero
+0010 0001
+1110 0001

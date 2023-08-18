@@ -1,0 +1,14 @@
+Result = 00100000, Error = 0, Expected Result = 00100000, Expected Error = 0. ->> Test passed.
+Result = 11000000, Error = 0, Expected Result = 11000000, Expected Error = 0. ->> Test passed.
+Result = 00001100, Error = 0, Expected Result = 00001100, Expected Error = 0. ->> Test passed.
+Result = 11010000, Error = 0, Expected Result = 11010000, Expected Error = 0. ->> Test passed.
+Result = 00000000, Error = 1, Expected Result = 00000000, Expected Error = 1. ->> Test passed.
+Result = 00000000, Error = 1, Expected Result = 00000000, Expected Error = 1. ->> Test passed.
+Result = 00100001, Error = 0, Expected Result = 00100001, Expected Error = 0. ->> Test passed.
+Result = 01010000, Error = 0, Expected Result = 01010000, Expected Error = 0. ->> Test passed.
+Result = 00010000, Error = 0, Expected Result = 00010000, Expected Error = 0. ->> Test passed.
+Result = 00010000, Error = 0, Expected Result = 00010000, Expected Error = 0. ->> Test passed.
+Result = 00000000, Error = 1, Expected Result = 00000000, Expected Error = 1. ->> Test passed.
+Result = 00000101, Error = 0, Expected Result = 00000101, Expected Error = 0. ->> Test passed.
+Result = 00000000, Error = 1, Expected Result = 00000000, Expected Error = 1. ->> Test passed.
+Result = 00000101, Error = 0, Expected Result = 00000101, Expected Error = 0. ->> Test passed.

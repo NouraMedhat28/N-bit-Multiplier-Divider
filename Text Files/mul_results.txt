@@ -1,0 +1,10 @@
+Result = 11100010, BUSY = 0, VALID = 1, Expected Result = 11100010, Expected BUSY = 0, Expected VALID = 1. ->> Test passed.
+Result = 11011101, BUSY = 0, VALID = 1, Expected Result = 11011101, Expected BUSY = 0, Expected VALID = 1. ->> Test passed.
+Result = 00001100, BUSY = 0, VALID = 1, Expected Result = 00001100, Expected BUSY = 0, Expected VALID = 1. ->> Test passed.
+Result = 00101010, BUSY = 0, VALID = 1, Expected Result = 00101010, Expected BUSY = 0, Expected VALID = 1. ->> Test passed.
+Result = 00110001, BUSY = 0, VALID = 1, Expected Result = 00110001, Expected BUSY = 0, Expected VALID = 1. ->> Test passed.
+Result = 00011100, BUSY = 0, VALID = 1, Expected Result = 00011100, Expected BUSY = 0, Expected VALID = 1. ->> Test passed.
+Result = 00000000, BUSY = 0, VALID = 1, Expected Result = 00000000, Expected BUSY = 0, Expected VALID = 1. ->> Test passed.
+Result = 00000001, BUSY = 0, VALID = 1, Expected Result = 00000001, Expected BUSY = 0, Expected VALID = 1. ->> Test passed.
+Result = 00000000, BUSY = 0, VALID = 1, Expected Result = 00000000, Expected BUSY = 0, Expected VALID = 1. ->> Test passed.
+Result = 00000000, BUSY = 0, VALID = 1, Expected Result = 00000000, Expected BUSY = 0, Expected VALID = 1. ->> Test passed.

@@ -1,0 +1,17 @@
+Comb. Result = 00000001, Seq. Result = 00000001. ->> Test passed.
+Comb. Result = 00001100, Seq. Result = 00001100. ->> Test passed.
+Comb. Result = 00101010, Seq. Result = 00101010. ->> Test passed.
+Comb. Result = 00110001, Seq. Result = 00110001. ->> Test passed.
+Comb. Result = 00011100, Seq. Result = 00011100. ->> Test passed.
+Comb. Result = 00000000, Seq. Result = 00000000. ->> Test passed.
+Comb. Result = 00000001, Seq. Result = 00000001. ->> Test passed.
+Comb. Result = 00000000, Seq. Result = 00000000. ->> Test passed.
+Comb. Result = 00000000, Seq. Result = 00000000. ->> Test passed.
+Comb. Result = 00100000, Seq. Result = 00100000. ->> Test passed.
+Comb. Result = 11000000, Seq. Result = 11000000. ->> Test passed.
+Comb. Result = 00001100, Seq. Result = 00001100. ->> Test passed.
+Comb. Result = 11010000, Seq. Result = 11010000. ->> Test passed.
+Comb. Result = 00100001, Seq. Result = 00100001. ->> Test passed.
+Comb. Result = 01010000, Seq. Result = 01010000. ->> Test passed.
+Comb. Result = 00010000, Seq. Result = 00010000. ->> Test passed.
+Comb. Result = 00010000, Seq. Result = 00010000. ->> Test passed.

@@ -13,9 +13,9 @@ Also, here is an example in which I was multipling 3 by 6, using the algorithm.
 #### In order to implement any sequential circuit, we have 2 approaches, we can implement it using FSM and it is also valid to implement it without it. I have implemented it in both techniques.
 - ## Using FSM: I have implemented 2 designs, the first one is illustrated as follows
 ![IMG_20230831_165336](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/22caf6f8-8d3a-409f-b062-41580fff71c0)
-As  shown,  we  had  4 states.  For  4bit inputs,  if  we  wanted  to  calculate  the  needed number of clock  cycles  to  complete  the calculations,  it  would  be as follows: 1  cycle  for  loading,  4  cycles  for  performing  the  iterations  of  the  algorithm  itself,  1 cycle  to  state  that  the  calculations  are  done,  which  is  the  “Done”  state  and  finally 1  cycle  to  reset  the  registers,  which  is  the  “IDLE”  state. So,  for  Nbit  inputs,  we will  need  N+2  clock  cycles  to  get  the  final  reset  and  one  cycle  to  reset  the  register. To  make  the  design  more  opti mized  in  terms  of  the  number  of clock  cycles,  we needed  to  reduce the number of states.
+As  shown,  we  had  4 states.  For  4bit inputs,  if  we  wanted  to  calculate  the  needed number of clock  cycles  to  complete  the calculations,  it  would  be as follows: 1  cycle  for  loading,  4  cycles  for  performing  the  iterations  of  the  algorithm  itself,  1 cycle  to  state  that  the  calculations  are  done,  which  is  the  “Done”  state  and  finally 1  cycle  to  reset  the  registers,  which  is  the  “IDLE”  state. So,  for  Nbit  inputs,  we will  need  N+2  clock  cycles  to  get  the  final  reset  and  one  cycle  to  reset  the  register. To  make  the  design  more  optimized  in  terms  of  the  number  of clock  cycles,  we needed  to  reduce the number of states.
 
-The secode design was for optimization in the number of clock cycle, and it is illustrated as follows: 
+The secode design was for optimization in the number of clock cycles, and it is illustrated as follows: 
 ![IMG_20230831_165632](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/3f1573e7-d6ae-4e29-882e-b9adf30dac44)
 
 - ### Without FSM
@@ -40,7 +40,7 @@ We  can  design  a  sequential  circuit  without  FSM.  Here  we  had  another m
 
 ## Testing 
 ### Test plan for multiplier 
-#### If we set our generic to 4, this means that to test the whole design, we need to enter 24 = 16 inputs. As we have 2 inputs, this means that we need to apply 16*16 = 256 test cases, which is definitely difficult and time consuming. In order to avoid this, we needed to study the corner cases, which were, from our point of view, as follows: 
+#### If we set our generic to 4, this means that to test the whole design, we need to enter 2^4 = 16 inputs. As we have 2 inputs, this means that we need to apply 16*16 = 256 test cases, which is definitely difficult and time consuming. In order to avoid this, we needed to study the corner cases, which were, from our point of view, as follows: 
 #### ● Q: +ve, M: -ve 
 #### ● Q: -ve, M:+ve 
 #### ● Q: -ve, M: -ve 

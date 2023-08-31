@@ -72,7 +72,10 @@ We  can  design  a  sequential  circuit  without  FSM.  Here  we  had  another m
 #### Test Results
 ![IMG_20230831_173006](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/0420cd79-ab25-4afc-a076-115915dcaa03)
 
-#### Other 
+#### Other contributors: 
+- Abdulrahman Mohamed NourEldeen  Hamza
+- Kareem  Elsaeed  Abdel Hafez
+- Khaled  Khalifa  Abd  elHay  Said
 
 
 

@@ -4,28 +4,27 @@
 ## - Sequential Multiplier
 ### - Booth's Algorithm
 #### In order to build a sequential multiplier, Booth's algorithm was chosen for this task. Booth's algorithm has its own decoding table, which is as follows:
-![IMG_20230831_164425](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/247da74f-f88a-4104-841f-35dcf9fee2e6)
+![IMG_20230831_164425](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/9ed15314-54f2-459d-b6fa-73aff0b13ca1)
 To understand the algorithm in detail, here is the flowchart illustrating it.
-![IMG_20230831_164736](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/f440f359-a24b-4e89-a320-68806d7869bf)
+![IMG_20230831_164736](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/2a928326-ae8a-4c07-a594-da624ac0b0b6)
 Also, here is an example in which I was multipling 3 by 6, using the algorithm.
-![IMG_20230831_164959](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/10c3491a-a5b0-41db-93d8-ddc59beb4165)
+![IMG_20230831_164959](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/0d09b5d2-e6ad-44e8-8e86-f0eba5b0eebc)
 ### - Booth's Algorithm Implementation
 #### In order to implement any sequential circuit, we have 2 approaches, we can implement it using FSM and it is also valid to implement it without it. I have implemented it in both techniques.
 - ## Using FSM:
 I have implemented 2 designs, the first one is illustrated as follows
-![IMG_20230831_165336](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/22caf6f8-8d3a-409f-b062-41580fff71c0)
+![IMG_20230831_165336](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/f7121d62-9e0a-4db9-8345-2390a091e274)
 As  shown,  we  had  4 states.  For  4bit inputs,  if  we  wanted  to  calculate  the  needed number of clock  cycles  to  complete  the calculations,  it  would  be as follows: 1  cycle  for  loading,  4  cycles  for  performing  the  iterations  of  the  algorithm  itself,  1 cycle  to  state  that  the  calculations  are  done,  which  is  the  “Done”  state  and  finally 1  cycle  to  reset  the  registers,  which  is  the  “IDLE”  state. So,  for  Nbit  inputs,  we will  need  N+2  clock  cycles  to  get  the  final  reset  and  one  cycle  to  reset  the  register. To  make  the  design  more  optimized  in  terms  of  the  number  of clock  cycles,  we needed  to  reduce the number of states.
 
 The secode design was for optimization in the number of clock cycles, and it is illustrated as follows: 
-![IMG_20230831_165632](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/3f1573e7-d6ae-4e29-882e-b9adf30dac44)
-
+![IMG_20230831_165632](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/d3912ef7-48e7-4841-bd8e-1365d41022a9)
 - ### Without FSM
 We  can  design  a  sequential  circuit  without  FSM.  Here  we  had  another methodology  in  the  design.  And  for  Nbit  inputs,  we  need  N  clock  cycles.
 
 ## - Combinational Divider
 ### - Restoring Algorithm
 #### In order to build a sequential multiplier, Restoring algorithm was chosen for this task. Here is the flowchart of the algorithm
-![IMG_20230831_170837](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/ed36a6c7-1717-4240-bdab-d52364703036)
+![IMG_20230831_170837](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/caf93241-0544-4407-a95a-9452e4b54b41)
 #### Here is an example, in which I was dividing -7/-4 
 ![IMG_20230831_170903](https://github.com/NouraMedhat28/N-bit-Multiplier-Divider/assets/96621514/77a86f6b-e0b1-40ad-ab38-87dc0727723b)
 
